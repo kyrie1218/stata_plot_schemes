@@ -8,5 +8,5 @@ foreach i in "scheme-burd" "blindschemes" ///
    "scheme-modern" "scheme-mrc" "scheme-pih" ///
    "scheme-tfl" "schemepack" "uncluttered" ///
    "vgsg3" "yalescheme"{
- net install `i', replace
+ net install `i'.pkg, from("D:\\Softwares\\Stata\\stata_plot_schemes\\`i'")
 }
