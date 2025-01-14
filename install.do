@@ -8,5 +8,13 @@ foreach i in "scheme-burd" "blindschemes" ///
    "scheme-modern" "scheme-mrc" "scheme-pih" ///
    "scheme-tfl" "schemepack" "uncluttered" ///
    "vgsg3" "yalescheme"{
- net install `i', replace
+ net install `i', from(https://github.com/kyrie1218/stata_plot_schemes) replace      
+
+
+
+
+
+
+
+
 }
