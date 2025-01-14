@@ -1,0 +1,5 @@
+*! version 1.0 29mar2018
+sequence 9995
+label "cgd-warm gray"
+
+set rgb "172 163 154"

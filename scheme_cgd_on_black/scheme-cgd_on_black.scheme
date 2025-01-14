@@ -1,0 +1,80 @@
+*                                    cgd_on_black.scheme
+
+* This scheme is based on the s1rcolor scheme.
+* The s1rcolor scheme belongs to the s1 scheme family with a naturally black background 
+* and color foreground (lines, symbols, text, etc).  
+* based on s1rcolor version 1.1.3  27feb2011, but should work with any s1rcolor scheme
+*!  version 1.0  11may2018	Mallika Snyder, Center for Global Development
+*!  version 1.1  15Oct2019  Mead Over, CGD 
+
+#include s1rcolor
+
+label "CGD on Black"
+
+* do NOT use "r g b" numbers for background and foreground"
+
+color backsymbol    cgddkgray
+
+
+color box           cgdteal
+color textbox       cgdteal
+color mat_label_box cgdteal
+
+color text_option      white
+color text_option_line white
+color text_option_fill cgddkgray
+
+color filled_text      white
+color filled           cgdteal
+color bylabel_outline  white
+
+color reverse_big        cgddkgray
+color reverse_big_line   cgddkgray
+color reverse_big_text   black
+
+
+color ci_line        cgddkgray
+color ci_arealine    cgddkgray
+color ci_area        cgddkgray
+color ci_symbol      cgddkgray
+color ci2_line       cgdblue
+color ci2_arealine   cgdblue
+color ci2_area       cgdblue
+color ci2_symbol     cgdbluegray
+
+color matrix         cgdteal
+color matrixmarkline sand    
+color refmarker      red
+color refmarkline    white
+color histogram      khaki
+color histback       gold
+color histogram_line stone
+color dot_line       gs8
+color dot_arealine   gs8
+color dot_area       gs5
+color dotmarkline    white
+
+color xyline         cgdred
+color refline        cgdgreen
+color dots           black
+
+color p       white
+color p1      cgdorange
+color p2	cgdteal
+color p3      cgdwmgray
+color p4      cgdyellow
+color p5      cgdpurple
+color p6      cgdgreen
+color p7      cgdred
+color p8      cgddkgray
+color p9      cgdbluegray
+color p10     cgdbeige
+color p11     cgdltgray
+color p12     cgdbeige
+color p13     emerald
+color p14     gold
+color p15     bluishgray
+
+color pboxlabelfill  cgddkgray
+color plabelfill     cgddkgray
+

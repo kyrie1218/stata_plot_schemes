@@ -1,0 +1,5 @@
+*! version 1.0.0  29mar2018
+sequence 9996
+label "cgd-dark gray"
+
+set rgb "105 97 88"

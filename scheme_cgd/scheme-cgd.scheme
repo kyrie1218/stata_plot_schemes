@@ -1,0 +1,34 @@
+*                                    cgd.scheme
+
+*	The only difference between this scheme and "s2color.scheme" is that the
+*	background here is pure white instead of "lightly colored".
+*	The following comments are retained from the file "s2color.scheme"
+
+*!	version 1.1 by Mead Over, 13Oct2019
+*!	Update of version 1.0 by Malika Snyder, 17jul2018
+
+#include s2color
+
+label "CGD on White"
+
+color background  white
+
+color p       cgdteal
+color p1      cgdteal
+color p2      cgdorange
+color p3      cgdyellow
+color p4      cgdpurple
+color p5      cgdgreen
+color p6      cgdbluegray
+color p7      cgdred
+color p8      cgddkgray
+color p9      cgdwmgray
+color p10     cgdbeige
+color p11     cgdltgray
+color p12     emerald
+color p13     erose
+color p14     gold
+color p15     bluishgray
+
+
+* end: cgd.scheme

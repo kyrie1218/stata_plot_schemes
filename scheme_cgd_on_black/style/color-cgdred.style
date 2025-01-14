@@ -1,0 +1,6 @@
+*! version 1.0 29mar2018
+
+sequence 9993
+label "cgd-red"
+
+set rgb "228 0 43"

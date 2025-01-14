@@ -1,0 +1,5 @@
+*! version 1.0 29mar2018
+sequence 9994
+label "cgd-beige"
+
+set rgb "223 209 167"

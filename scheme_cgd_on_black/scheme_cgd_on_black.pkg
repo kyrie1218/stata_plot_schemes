@@ -1,0 +1,33 @@
+*package file for scheme_cgd
+v 3
+
+d {cmd:scheme_cgd_on_black}. Stata graphics {help scheme} using CGD colors on black background
+
+d
+d Authors:
+"d   Malika Snyder, Former Reseach Associate at CGD"
+"d   Mead Over, Senior Fellow Emeritus at CGD"
+
+d
+"d Version 1.3, October 14, 2019"
+d Requires Stata Version 9 or later
+d
+d Distribution-Date: 20191014
+
+f   scheme-cgd_on_black.scheme
+f   scheme_cgd_on_black.sthlp
+
+f  ./style/color-cgdltgray.style
+f  ./style/color-cgdorange.style
+f  ./style/color-cgdpurple.style
+f  ./style/color-cgdred.style
+f  ./style/color-cgdteal.style
+f  ./style/color-cgdwmgray.style
+f  ./style/color-cgdyellow.style
+f  ./style/color-cgdbeige.style
+f  ./style/color-cgdblue.style
+f  ./style/color-cgdbluegray.style
+f  ./style/color-cgddkgray.style
+f  ./style/color-cgdgreen.style
+
+e

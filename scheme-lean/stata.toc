@@ -1,0 +1,2 @@
+v 0.0.1
+d sjcmd: 从 Stata Journal 下载并构建本地安装包

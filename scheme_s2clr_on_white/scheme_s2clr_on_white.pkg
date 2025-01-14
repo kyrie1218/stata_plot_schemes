@@ -1,0 +1,21 @@
+*package file for scheme-s2clr_on_white.scheme
+v 3
+d {cmd:scheme_2clr_on_white}. Stata's s2color scheme with white background.
+d
+d This scheme is identical to Stata's s2color scheme
+d except the background of the graphs is changed from 
+d light blue to white.  Updated for Stata 16
+d Works on previous versions.
+d 
+d by Mead Over, Center for Global Development
+d http://www.cgdev.org/expert/mead-over
+d
+d Version 1.3, Oct 13, 2019
+d Requires Stata Version 9.0 or later
+d
+d Distribution-Date: 20191014
+
+f scheme-s2clr_on_white.scheme
+f scheme_s2clr_on_white.sthlp
+
+e

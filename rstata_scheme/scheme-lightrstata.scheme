@@ -1,0 +1,130 @@
+*! lightrstata.scheme
+
+#include plotplain
+
+*! 背景色
+color background white
+
+*! 标题
+color heading "14 17 22"
+gsize heading large
+clockdir title_position 11
+yesno title_span no
+margin heading small
+
+*! 副标题
+color subheading "14 17 22"
+gsize subheading medium
+clockdir subtitle_position 11
+yesno subtitle_span no
+margin subheading small
+
+*! caption
+color body "14 17 22"
+gsize body small 
+clockdir caption_position 5
+
+*! note
+color small_body "14 17 22"
+gsize small_body vsmall 
+clockdir note_position 5
+
+*! 图例
+clockdir legend_position 3
+numstyle legend_cols 1
+
+*! 坐标轴
+color tickline "14 17 22"
+color axisline "14 17 22"
+color axis_title "14 17 22"
+color tick_label "14 17 22"
+color major_grid "14 17 22"
+color minor_grid "14 17 22"
+gsize axis_title small
+textboxstyle axis_title 
+
+*! 颜色
+color p   "254 212 57" 
+color p1  "112 154 225" 
+color p2  "138 145 151" 
+color p3  "210 175 129" 
+color p4  "253 116 70" 
+color p5  "213 228 162" 
+color p6  "25 126 192" 
+color p7  "240 92 59" 
+color p8  "70 115 46" 
+color p9  "113 208 245" 
+color p10 "55 3 53" 
+color p11 "7 81 73" 
+color p12 "200 8 19" 
+color p13 "145 51 31" 
+color p14 "26 153 147" 
+color p15 "253 140 193"
+
+color histogram      "112 154 225"
+
+color plabel   "254 212 57" 
+color p1label  "112 154 225" 
+color p2label  "138 145 151" 
+color p3label  "210 175 129" 
+color p4label  "253 116 70" 
+color p5label  "213 228 162" 
+color p6label  "25 126 192" 
+color p7label  "240 92 59" 
+color p8label  "70 115 46" 
+color p9label  "113 208 245" 
+color p10label "55 3 53" 
+color p11label "7 81 73" 
+color p12label "200 8 19" 
+color p13label "145 51 31" 
+color p14label "26 153 147" 
+color p15label "253 140 193"
+
+linepattern p1lineplot solid
+linepattern p2lineplot solid
+linepattern p3lineplot solid
+linepattern p4lineplot solid
+linepattern p5lineplot solid
+linepattern p6lineplot solid
+linepattern p7lineplot solid
+linepattern p8lineplot solid
+linepattern p9lineplot solid
+linepattern p10lineplot solid
+linepattern p11lineplot solid
+linepattern p12lineplot solid
+linepattern p13lineplot solid
+linepattern p14lineplot solid
+linepattern p15lineplot solid
+
+linewidth p1lineplot medium
+linewidth p2lineplot medium
+linewidth p3lineplot medium
+linewidth p4lineplot medium
+linewidth p5lineplot medium
+linewidth p6lineplot medium
+linewidth p7lineplot medium
+linewidth p8lineplot medium
+linewidth p9lineplot medium
+linewidth p10lineplot medium
+linewidth p11lineplot medium
+linewidth p12lineplot medium
+linewidth p13lineplot medium
+linewidth p14lineplot medium
+linewidth p15lineplot medium
+
+* gridline
+linewidth major_grid vthin
+linewidth minor_grid vthin
+yesno extend_grid_low        no
+yesno extend_grid_high       no
+yesno extend_minorgrid_low   no
+yesno extend_minorgrid_high  no
+yesno extend_majorgrid_low   no
+yesno extend_majorgrid_high  no
+
+* 置信区间
+intensity ci_area    inten30
+
+* 等高线图填充色
+color contour_begin      "224 242 241"
+color contour_end        "0 77 64"

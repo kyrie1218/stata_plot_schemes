@@ -1,0 +1,21 @@
+d SJ4-3 gr0002_3.  Lean mainstream schemes for Stata 8 graphics
+d Lean mainstream schemes for Stata 8 graphics
+"d by Svend Juul, University of Aarhus, Denmark"
+d Support:  sj@@soci.au.dk
+
+f scheme-lean2.scheme
+f scheme-lean1.scheme
+f scheme_lean.hlp
+f scheme_lean1.hlp
+f scheme_lean2.hlp
+f figures.do
+f fig1a.do
+f fig1b.do
+f fig1c.do
+f fig1d.do
+f fig2a.do
+f fig2b.do
+f fig3a.do
+f fig3b.do
+f fig4.do
+

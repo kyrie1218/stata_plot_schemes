@@ -1,0 +1,8 @@
+d 'rstata_scheme': Stata schemes —— rstata scheme
+d
+d KW: graphics
+d KW: schemes
+d
+
+f scheme-darkrstata.scheme
+f scheme-lightrstata.scheme

@@ -1,0 +1,5 @@
+*! version 1.0  29mar2018
+sequence 9997
+label "cgd-teal"
+
+set rgb "0 103 127"
